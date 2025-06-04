@@ -3,108 +3,112 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <title>Sentinelle Quantum – Choisir la langue</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sentinelle Quantum Vanguard AI Pro</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #0a0a0a;
+      background: radial-gradient(circle at center, #050505, #111);
       color: white;
+      overflow: hidden;
     }
-    header {
-      text-align: center;
-      padding: 50px 20px 20px;
-      background: radial-gradient(circle at center, #1e1e1e, #000);
+
+    .radar-overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.15;
+      z-index: 0;
+      pointer-events: none;
+      background: url('radar_background.svg') center center / cover no-repeat;
     }
-    header img {
-      max-width: 120px;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-top: 20px;
-      color: #ffffff;
-    }
-    p {
-      color: #ccc;
-      max-width: 700px;
-      margin: 0 auto 20px;
-      font-size: 1.1rem;
-    }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .feature {
-      background: #111;
+
+    .content {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,255,255,0.05);
-    }
-    .feature h3 {
-      color: #0ff;
-      margin-bottom: 10px;
-    }
-    .cta {
       text-align: center;
-      margin: 40px 0;
     }
-    .cta a {
+
+    .logo img {
+      max-width: 140px;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      animation: slideDown 1s ease-out;
+    }
+
+    .lang-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      animation: slideUp 1.5s ease-out;
+    }
+
+    .lang-link {
       background: #0ff;
-      padding: 15px 30px;
-      color: #000;
-      font-weight: bold;
-      border-radius: 8px;
+      color: black;
       text-decoration: none;
-      transition: background 0.3s ease;
+      padding: 15px 25px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      box-shadow: 0 0 15px rgba(0,255,255,0.3);
+      transition: transform 0.3s, background 0.3s;
     }
-    .cta a:hover {
+
+    .lang-link:hover {
+      transform: scale(1.05);
       background: #00cccc;
     }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
-      padding: 30px;
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @media (max-width: 600px) {
+      .lang-link {
+        padding: 12px 20px;
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="Sentinelle.ico" alt="Logo Sentinelle">
-    <h1>Sentinelle Quantum Vanguard AI Pro</h1>
-    <p>De la protection personnelle à la sécurité gouvernementale. Une application d’IA de nouvelle génération pour la surveillance, la défense, et l’alerte en temps réel.</p>
-  </header>
-
-  <section class="features">
-    <div class="feature">
-      <h3>🧠 IA comportementale</h3>
-      <p>Anticipe les menaces à partir de vos données comportementales et réagit avant l’incident.</p>
+  <div class="radar-overlay"></div>
+  <div class="content">
+    <div class="logo">
+      <img src="Sentinelle.ico" alt="Logo Sentinelle">
     </div>
-    <div class="feature">
-      <h3>🌍 Veille OSINT</h3>
-      <p>Analyse intelligente des données publiques : réseaux sociaux, blogs, fuites, dark web.</p>
+    <h1>🌍 Choisissez votre langue / Select your language / Elige tu idioma</h1>
+    <div class="lang-container">
+      <a class="lang-link" href="index.html">🇫🇷 Français</a>
+      <a class="lang-link" href="en.html">🇬🇧 English</a>
+      <a class="lang-link" href="es.html">🇪🇸 Español</a>
     </div>
-    <div class="feature">
-      <h3>🔊 Synthèse vocale multilingue</h3>
-      <p>Alertes vocales en français, anglais, espagnol. Personnalisables pour chaque profil utilisateur.</p>
-    </div>
-    <div class="feature">
-      <h3>🔐 Mode gouvernemental</h3>
-      <p>Version verrouillée pour les forces de l’ordre, collectivités et gouvernements.</p>
-    </div>
-  </section>
-
-  <div class="cta">
-    <a href="#">⬇️ Télécharger la version Windows</a>
   </div>
-
-  <footer>
-    &copy; 2025 Sentinelle Quantum Vanguard AI Pro. Tous droits réservés.
-  </footer>
 </body>
 </html>
