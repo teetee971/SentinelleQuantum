@@ -1,4 +1,5 @@
 ![Version stable](https://img.shields.io/badge/version-v1.0.0-blue.svg?style=for-the-badge&logo=github)
+[![GitHub Release](https://img.shields.io/github/v/release/teetee971/SentinelleQuantum?style=for-the-badge)](https://github.com/teetee971/SentinelleQuantum/releases/latest)
 
 
 
