@@ -8,6 +8,12 @@
 </p>
 
 # 🛡️ Sentinelle Quantum Vanguard AI Pro ![Build Status](https://github.com/teetee971/SentinelleQuantum/actions/workflows/build.yml/badge.svg)
+# Sentinelle Quantum Vanguard AI Pro
+
+[![Website](https://img.shields.io/badge/Site%20Web-SentinelleQuantum-blue?style=for-the-badge&logo=githubpages)](https://teetee971.github.io/SentinelleQuantum)
+[![Télécharger .EXE](https://img.shields.io/badge/Télécharger-Windows%20Installer-blue?style=for-the-badge&logo=windows)](https://github.com/teetee971/SentinelleQuantum/releases/latest)
+![Sécurité signée](https://img.shields.io/badge/Signature%20numérique-Démonstration%20OK-green?style=for-the-badge&logo=trustpilot)
+
 
 Bienvenue dans le dépôt officiel de **Sentinelle Quantum Vanguard AI Pro**, un système de protection numérique avancé alliant intelligence artificielle, modules OSINT, sécurité vocale, et compilation Windows.
 
