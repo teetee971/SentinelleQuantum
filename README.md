@@ -1,42 +1,28 @@
 # Sentinel Quantum Vanguard AI Pro
 
-Sentinel Quantum Vanguard AI Pro est un logiciel de cybersécurité et de protection cognitive avancée intégrant :
-- 🧠 Détection de manipulation cognitive (phishing, scareware, etc.)
-- 🔊 Surveillance du microphone et anomalies audio
-- 👁️ Analyse visuelle OCR contre les faux popups
-- ⚙️ Blocage automatisé des menaces et alertes utilisateur
+> Version 1.0.0 — Logiciel de sécurité avancée pour la protection cognitive, audio, visuelle, réseau et OSINT.
 
-## 🛠 Installation
+Ce dépôt contient l’ensemble des modules de Sentinel Quantum Vanguard AI Pro, une suite conçue pour la défense proactive des utilisateurs vulnérables contre :
+- L’espionnage audio,
+- L’ingénierie sociale,
+- Les ingérences numériques,
+- Les intrusions réseau,
+- La manipulation cognitive,
+- Les menaces visuelles.
 
-### 1. Cloner le dépôt
-```bash
-git clone https://github.com/votre-utilisateur/SentinelQuantumVanguardAIPro.git
-cd SentinelQuantumVanguardAIPro
-```
+## Modules inclus
 
-### 2. Installer les dépendances
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Compilation Windows (.exe)
-```bash
-pyinstaller sentinel_main.spec
-```
-
-## 📁 Structure
-- `main.py` : point d’entrée (à adapter selon votre architecture)
-- `sentinel_main.spec` : configuration de build PyInstaller
-- `assets/icon.ico` : icône personnalisée
-- `README.md`, `.gitignore`, `requirements.txt`
-
-## 📦 Release automatique
-Lancez :
-```bash
-git tag v1.0.0
-git push origin v1.0.0
-```
-Une release GitHub avec l'exécutable `.exe` sera générée automatiquement si GitHub Actions est activé.
+- `audio_guardian/` : Protection microphone et anomalies audio.
+- `cognitive_shield/` : Détection de manipulations et attaques psychologiques.
+- `osint_intelligence/` : Surveillance des menaces issues de sources ouvertes.
+- `network_guard/` : Détection d’intrusions réseau et attaques furtives.
+- `visual_firewall/` : Analyse OCR/écran pour détecter les messages trompeurs.
+- `quantum_protector/` : Mécanismes hybrides IA + quantum (futur).
+- `privacy_vault/` : Sécurisation de données personnelles critiques.
+- `incident_response/` : Module de réaction intelligente aux incidents détectés.
+- `auto_update/` : Mise à jour automatique sécurisée.
+- `main_launcher/` : Interface centrale de lancement et configuration.
 
 ---
-© 2025 Sentinel Quantum Vanguard AI Pro - Tous droits réservés
+
+© 2025. Tous droits réservés. Aucune licence Open Source n’est accordée.
