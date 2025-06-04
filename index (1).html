@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="auto">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0">
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+
+    if (lang.startsWith('fr')) {
+      window.location.href = "./index.html";
+    } else if (lang.startsWith('es')) {
+      window.location.href = "./es.html";
+    } else {
+      window.location.href = "./en.html";
+    }
+  </script>
+</head>
+<body>
+  <p>Redirection en cours...</p>
+</body>
+</html>
