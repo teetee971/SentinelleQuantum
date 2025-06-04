@@ -1,3 +1,7 @@
+![Version stable](https://img.shields.io/badge/version-v1.0.0-blue.svg?style=for-the-badge&logo=github)
+
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/teetee971/SentinelleQuantum/main/splash.png" width="400" alt="Sentinelle Splash">
 </p>
