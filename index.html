@@ -2,73 +2,109 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sentinelle Quantum Vanguard AI Pro</title>
-  <link rel="icon" type="image/png" href="favicon.png" />
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
-      color: #222;
       margin: 0;
-      padding: 2rem;
-    }
-    .header {
-      background-color: #004c6d;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0a0a;
       color: white;
-      padding: 1.5rem;
+    }
+    header {
       text-align: center;
+      padding: 50px 20px 20px;
+      background: radial-gradient(circle at center, #1e1e1e, #000);
     }
-    .section {
-      margin: 2rem auto;
-      max-width: 800px;
-      background: white;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    header img {
+      max-width: 120px;
     }
-    h1, h2 {
-      color: #004c6d;
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 20px;
+      color: #ffffff;
     }
-    .badge {
-      background: #00a86b;
-      padding: 0.4rem 1rem;
-      color: white;
+    p {
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto 20px;
+      font-size: 1.1rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .feature {
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.05);
+    }
+    .feature h3 {
+      color: #0ff;
+      margin-bottom: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta a {
+      background: #0ff;
+      padding: 15px 30px;
+      color: #000;
       font-weight: bold;
-      border-radius: 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .cta a:hover {
+      background: #00cccc;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 30px;
     }
   </style>
 </head>
 <body>
+  <header>
+    <img src="Sentinelle.ico" alt="Logo Sentinelle">
+    <h1>Sentinelle Quantum Vanguard AI Pro</h1>
+    <p>De la protection personnelle à la sécurité gouvernementale. Une application d’IA de nouvelle génération pour la surveillance, la défense, et l’alerte en temps réel.</p>
+  </header>
 
-  <div class="header">
-    <h1>🛡️ Sentinelle Quantum Vanguard AI Pro</h1>
-    <p>Protection intelligente pour utilisateurs vulnérables & gouvernements</p>
+  <section class="features">
+    <div class="feature">
+      <h3>🧠 IA comportementale</h3>
+      <p>Anticipe les menaces à partir de vos données comportementales et réagit avant l’incident.</p>
+    </div>
+    <div class="feature">
+      <h3>🌍 Veille OSINT</h3>
+      <p>Analyse intelligente des données publiques : réseaux sociaux, blogs, fuites, dark web.</p>
+    </div>
+    <div class="feature">
+      <h3>🔊 Synthèse vocale multilingue</h3>
+      <p>Alertes vocales en français, anglais, espagnol. Personnalisables pour chaque profil utilisateur.</p>
+    </div>
+    <div class="feature">
+      <h3>🔐 Mode gouvernemental</h3>
+      <p>Version verrouillée pour les forces de l’ordre, collectivités et gouvernements.</p>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a href="#">⬇️ Télécharger la version Windows</a>
   </div>
 
-  <div class="section">
-    <h2>🔍 À propos</h2>
-    <p>Sentinelle Quantum Vanguard AI Pro est une application de cybersécurité avancée conçue pour offrir une protection inédite aux femmes seules, seniors, enfants, et institutions sensibles. Elle intègre des technologies OSINT, IA comportementale, vocales et des modules quantiques de protection.</p>
-
-    <h2>📦 Fonctionnalités principales</h2>
-    <ul>
-      <li>🧠 IA comportementale prédictive</li>
-      <li>🌐 Surveillance OSINT géolocalisée</li>
-      <li>🗣️ Synthèse vocale multilingue (FR/EN/ES)</li>
-      <li>🧬 Cryptage quantique hybride</li>
-      <li>🖥️ Version Windows .EXE + interface Flask</li>
-    </ul>
-
-    <h2>🚀 Télécharger</h2>
-    <p>Bientôt disponible sur GitHub Releases et Windows.</p>
-
-    <h2>👨‍💻 Créé par</h2>
-    <p><strong>Thierry Naud</strong> – Développeur & Visionnaire technologique<br/>
-    GitHub : <a href="https://github.com/teetee971" target="_blank">teetee971</a></p>
-
-    <span class="badge">Bientôt disponible en .EXE et .MSI</span>
-  </div>
-
+  <footer>
+    &copy; 2025 Sentinelle Quantum Vanguard AI Pro. Tous droits réservés.
+  </footer>
 </body>
 </html>
