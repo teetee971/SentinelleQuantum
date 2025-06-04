@@ -1,42 +1,23 @@
-# 🛡️ Quantum Reflex - Module d'Urgence Automatique
 
-Ce module fait partie de la suite **Sentinelle Quantum Vanguard AI Pro**. Il est dédié à la **réponse automatique face aux menaces critiques** détectées sur le système.
+# Cognitive Shield - Module IA Anti-Manipulation
+🧠 **Cognitive Shield** est un module intégré à *Sentinelle Quantum Vanguard AI Pro* conçu pour protéger contre :
+- Le phishing
+- L'ingénierie sociale
+- Les popups de scareware
+- Les faux supports techniques
+- Les tactiques comportementales manipulatrices
 
----
+## 📚 Fonctionnalités
+- Analyse de texte (NLTK, spaCy)
+- Analyse visuelle via OCR (captures d'écran)
+- Analyse comportementale en temps réel (clics, prompts)
+- Avertissements utilisateur et blocage automatique
+- Historique et sauvegarde SQLite
 
-## 🔍 Fonctionnalités principales
-
-- **Analyse comportementale intelligente** (ThreatAnalyzer)
-- **Réponse autonome en temps réel** (EmergencyResponseEngine)
-- Lockdown système, isolation réseau, gel de processus, capture forensique
-- **Snapshots du système** pour rollback
-- **Base de données SQLite** pour journalisation des événements
-- Mode automatique ou manuel configurable
-
----
-
-## 📦 Structure
-
-```
-quantum_reflex/
-├── reflex_engine.py       # Moteur principal
-├── __init__.py            # Initialisation du module
-├── demo.py                # Démo CLI rapide
-└── README.md              # Documentation
-```
-
----
-
-## ▶️ Lancer une démonstration
-
+## ⚙ Démonstration CLI
 ```bash
-python demo.py
+python demo_cognitive_shield.py
 ```
 
----
-
-## 🧠 Dépendances
-
-- `psutil`
-- `Pillow`
-- `pywin32` *(Windows uniquement)*
+## 💻 Interface graphique
+Une interface PyQt5 est incluse pour observer les menaces détectées en temps réel.
