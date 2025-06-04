@@ -1,23 +1,17 @@
+# Sentinelle Quantum Vanguard AI Pro
 
-# Cognitive Shield - Module IA Anti-Manipulation
-🧠 **Cognitive Shield** est un module intégré à *Sentinelle Quantum Vanguard AI Pro* conçu pour protéger contre :
-- Le phishing
-- L'ingénierie sociale
-- Les popups de scareware
-- Les faux supports techniques
-- Les tactiques comportementales manipulatrices
+Version 1.0.0 – Lancement Officiel
 
-## 📚 Fonctionnalités
-- Analyse de texte (NLTK, spaCy)
-- Analyse visuelle via OCR (captures d'écran)
-- Analyse comportementale en temps réel (clics, prompts)
-- Avertissements utilisateur et blocage automatique
-- Historique et sauvegarde SQLite
+## Modules inclus
+- Audio Guardian (protection du microphone, détection audio anormale)
+- Cognitive Shield (protection contre la manipulation cognitive)
+- Quantum Reflex (IA défensive avancée – en développement)
 
-## ⚙ Démonstration CLI
+## Utilisation
 ```bash
-python demo_cognitive_shield.py
+python demo/demo_audio_guardian.py
+python demo/demo_cognitive_shield.py
 ```
 
-## 💻 Interface graphique
-Une interface PyQt5 est incluse pour observer les menaces détectées en temps réel.
+## Licence
+Ce logiciel est propriétaire. Tous droits réservés.

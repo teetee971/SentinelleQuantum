@@ -1,0 +1,9 @@
+psutil
+pyaudio
+numpy
+nltk
+spacy
+pillow
+pytesseract
+pycaw
+comtypes
