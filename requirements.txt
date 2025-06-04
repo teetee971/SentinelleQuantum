@@ -1,6 +1,9 @@
+
+pyaudio
+psutil
+pycaw
 nltk
 spacy
 pillow
 pytesseract
-pyinstaller
-tkinter
+comtypes
